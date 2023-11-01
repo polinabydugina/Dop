@@ -15,11 +15,9 @@ kidsList.Add(new Boys("Михаил", 17, 203));
 SortByAge(kidsList);
 void ListOutput()
 {
-    int i = 1;
 foreach (Kids kids in kidsList)
     {
-        Console.WriteLine($"\t{i}. {kids.PrintName()}");
-        i++;
+        Console.WriteLine(kids.PrintName());
     }
 }
 
