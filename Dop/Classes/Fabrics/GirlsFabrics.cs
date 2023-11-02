@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Dop.Classes.Fabrics
 {
-    class GirlsFabric
+    static class GirlsFabric
     {
-        public Girls Create(string name, int age, int height)
+        public static Girls Create(string name, int age, int height)
         {
             return new Girls(name, age, height);
         }

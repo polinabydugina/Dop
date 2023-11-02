@@ -8,14 +8,14 @@ namespace Dop.Classes
 {
     abstract class Kids
     {
-        public string Colorhair = "black";
-        public string Coloreye = "blue";
+        public string colorhair = "black";
+        public string coloreye = "blue";
         public string Name { get; set; }
         public int Age { get; set; }
         public  int Height { get; set; }
         public string PrintName()
         {
-            return $"{Name}, Возраст: {Age}, Рост: {Height}, Цвет волос:{Colorhair}, Цвет глаз:{Coloreye}";
+            return $"{Name}, Возраст: {Age}, Рост: {Height}, Цвет волос:{colorhair}, Цвет глаз:{coloreye}";
         }
 
     }
